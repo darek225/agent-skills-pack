@@ -1,6 +1,6 @@
 # Third-party skill & tool repos
 
-23 repos, each installed and verified working at catalog time (Oct 2026). Code is **not** vendored here — clone what you want; licenses below are what each repo shipped.
+39 source repos. Their skills (1,657 SKILL.md files, plus agents/commands) are **vendored** under `skills/community/<repo>/` — each with its source README and license file. The install commands below are for anyone who wants the full repo (tools, apps, build systems) beyond the skills.
 
 > License notes: `Commons Clause` (canvas-ui) restricts commercial use. `AGPL-3.0` (OpenMontage) is copyleft — check obligations before integrating. tldraw's license has separate commercial terms.
 
@@ -51,3 +51,10 @@
 | [higgsfield-ai/skills](https://github.com/higgsfield-ai/skills) | Higgsfield video-generation agent skills | MIT | `git clone --depth 1 https://github.com/higgsfield-ai/skills` |
 | [AKCodez/higgsfield-claude-skills](https://github.com/AKCodez/higgsfield-claude-skills) | Additional Higgsfield Claude skills | Check repo | `git clone --depth 1 https://github.com/AKCodez/higgsfield-claude-skills` |
 | [higgsfield-ai/cli](https://github.com/higgsfield-ai/cli) | Higgsfield CLI binary (browser OAuth login) | MIT | `git clone --depth 1 https://github.com/higgsfield-ai/cli` (API use needs interactive auth) |
+
+## Also useful (tools, not repos)
+
+| Tool | What it is | Install |
+|---|---|---|
+| [CLI-Anything](https://github.com/HKUDS/CLI-Anything) (~53k stars, Apache-2.0) | 100+ CLI tools behind one hub (`cli-hub`) — including LibreOffice document conversion | `git clone --depth 1 https://github.com/HKUDS/CLI-Anything ~/.local/share/cli-anything && ~/.local/share/cli-anything/install.sh` (check repo for current installer) |
+| [REA](https://www.npmjs.com/package/rea-agents) | Record/replay browser scenarios with evidence IDs; `capture-browser-scenario` for light pages | `npm i -g rea-agents` |
