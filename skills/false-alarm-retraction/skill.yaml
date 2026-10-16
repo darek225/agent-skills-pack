@@ -1,0 +1,4 @@
+name: false-alarm-retraction
+title: False alarm retraction
+description: Verify a reported wall before escalating it to the user as a persistent blocker, and explicitly retract the alarm when later evidence contradicts it — use whenever a delegated worker or browser task reports a session/login/API wall you are about to relay, or when a later success contradicts something you already told the user was broken.
+category: Work and knowledge

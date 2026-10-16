@@ -1,0 +1,4 @@
+name: coordinator-ops
+title: Coordinator ops
+description: 'Run reliable multi-agent build coordinators: lock/heartbeat protocol, worker recovery, independent verification before merge, and stall detection. Use when dispatching a coordinator subagent for a multi-step build, or when auditing whether coordinators/workers are stuck.'
+category: Work and knowledge

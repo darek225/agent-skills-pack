@@ -1,0 +1,4 @@
+name: intake-sweeps
+title: Intake sweep processing
+description: Process a batch of streamed links or repos end to end — cloned, verified working, documented, cataloged, propagated into the workflow — so a sweep is never declared done at installed.
+category: Work and knowledge

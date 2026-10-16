@@ -1,0 +1,4 @@
+name: agent-logins
+title: Agent logins
+description: 'Get assistant-operated accounts created, verified, and kept logged in reliably: official API/device-code/token flows first, assistant-owned mailbox OTP retrieval, persisted browser sessions, CAPTCHA preference handling, phone-OTP rules, and a stuck-escalation ladder. Use whenever a task involves signing up, logging in, verifying an account, or hitting a CAPTCHA/OTP/phone wall on any site.'
+category: Work and knowledge
